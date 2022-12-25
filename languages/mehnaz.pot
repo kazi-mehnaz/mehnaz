@@ -1,0 +1,263 @@
+# Copyright (C) 2022 Kazi Mehnaz
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Mehnaz 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/mehnaz\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-12-25T04:35:43+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: mehnaz\n"
+
+#. Theme Name of the theme
+msgid "Mehnaz"
+msgstr ""
+
+#. Theme URI of the theme
+#. Author URI of the theme
+msgid "https://github.com/kazi-mehnaz"
+msgstr ""
+
+#. Description of the theme
+msgid "WordPress blogging theme"
+msgstr ""
+
+#. Author of the theme
+msgid "Kazi Mehnaz"
+msgstr ""
+
+#: 404.php:19
+msgid "Page Not Found"
+msgstr ""
+
+#: 404.php:20
+msgid "The page you were looking for could not be found. It might have been removed, renamed, or did not exist in the first place."
+msgstr ""
+
+#: 404.php:24
+msgid "404 not found"
+msgstr ""
+
+#: classes/class-themered-customize.php:86
+msgid "Retina logo"
+msgstr ""
+
+#: classes/class-themered-customize.php:87
+msgid "Scales the logo to half its uploaded size, making it sharp on high-res screens."
+msgstr ""
+
+#: classes/class-themered-customize.php:106
+msgid "Header &amp; Footer Background Color"
+msgstr ""
+
+#: classes/class-themered-customize.php:128
+msgid "Primary Color"
+msgstr ""
+
+#: classes/class-themered-customize.php:130
+msgctxt "color"
+msgid "Default"
+msgstr ""
+
+#: classes/class-themered-customize.php:131
+msgctxt "color"
+msgid "Custom"
+msgstr ""
+
+#: classes/class-themered-customize.php:188
+msgid "Apply a custom color for links, buttons, featured images."
+msgstr ""
+
+#: classes/class-themered-customize.php:207
+msgid "Theme Options"
+msgstr ""
+
+#: classes/class-themered-customize.php:230
+msgid "Show search in header"
+msgstr ""
+
+#: classes/class-themered-customize.php:251
+msgid "Show author bio"
+msgstr ""
+
+#: classes/class-themered-customize.php:272
+msgid "On archive pages, posts show:"
+msgstr ""
+
+#: classes/class-themered-customize.php:274
+msgid "Full text"
+msgstr ""
+
+#: classes/class-themered-customize.php:275
+msgid "Summary"
+msgstr ""
+
+#. Template Name of the theme
+#: classes/class-themered-customize.php:286
+msgid "Cover Template"
+msgstr ""
+
+#: classes/class-themered-customize.php:288
+msgid "Settings for the \"Cover Template\" page template. Add a featured image to use as background."
+msgstr ""
+
+#: classes/class-themered-customize.php:310
+msgid "Fixed Background Image"
+msgstr ""
+
+#: classes/class-themered-customize.php:311
+msgid "Creates a parallax effect when the visitor scrolls."
+msgstr ""
+
+#: classes/class-themered-customize.php:357
+msgid "Overlay Background Color"
+msgstr ""
+
+#: classes/class-themered-customize.php:358
+msgid "The color used for the overlay. Defaults to the accent color."
+msgstr ""
+
+#: classes/class-themered-customize.php:379
+msgid "Overlay Text Color"
+msgstr ""
+
+#: classes/class-themered-customize.php:380
+msgid "The color used for the text in the overlay."
+msgstr ""
+
+#: classes/class-themered-customize.php:400
+msgid "Overlay Opacity"
+msgstr ""
+
+#: classes/class-themered-customize.php:401
+msgid "Make sure that the contrast is high enough so that the text is readable."
+msgstr ""
+
+#: comments.php:25
+msgid "Leave a comment"
+msgstr ""
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One reply on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:32
+msgctxt "comments title"
+msgid "%1$s reply on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s replies on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:64
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:65
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:78
+msgid "Comments"
+msgstr ""
+
+#: comments.php:117
+msgid "Comments are closed."
+msgstr ""
+
+#: front-page.php:18
+msgid "Welcome to Mehnaz Theme"
+msgstr ""
+
+#: front-page.php:19
+msgid "Mehnaz Home"
+msgstr ""
+
+#: functions.php:154
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:155
+msgid "Mobile Menu"
+msgstr ""
+
+#: functions.php:156
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:244
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:246
+#: functions.php:258
+msgid "Widgets in this area will be displayed in the first column in the footer."
+msgstr ""
+
+#: functions.php:256
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:268
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:270
+msgid "Widgets in this area will be displayed in the second column in the footer."
+msgstr ""
+
+#: functions.php:304
+msgid "Blue Quote"
+msgstr ""
+
+#: functions.php:315
+msgid "Two buttons"
+msgstr ""
+
+#: functions.php:316
+msgctxt "Block pattern description"
+msgid "Two horizontal buttons, the left button is filled in, and the right button is outlined."
+msgstr ""
+
+#: functions.php:317
+msgid "Button One"
+msgstr ""
+
+#: functions.php:317
+msgid "Button Two"
+msgstr ""
+
+#: index.php:43
+msgid "Read More"
+msgstr ""
+
+#: templete-parts/content-cover.php:70
+msgid "Categories"
+msgstr ""
+
+#: templete-parts/content-cover.php:88
+msgid "Scroll Down"
+msgstr ""
+
+#: templete-parts/content-cover.php:138
+#: templete-parts/content.php:48
+msgid "Page"
+msgstr ""
+
+#: templete-parts/content-cover.php:138
+#: templete-parts/content.php:48
+msgid "Pages:"
+msgstr ""
+
+#: templete-parts/content.php:36
+msgid "Continue reading"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Full Width Template"
+msgstr ""

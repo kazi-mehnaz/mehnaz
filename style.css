@@ -1,0 +1,292 @@
+/*
+Theme Name: Mehnaz
+Author: Kazi Mehnaz
+Text Domain: mehnaz
+Theme URI: https://github.com/kazi-mehnaz
+Author URI: https://github.com/kazi-mehnaz
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Description: WordPress blogging theme
+Tags: blog, news
+*/
+
+html,
+body {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+address,
+big,
+cite,
+code,
+em,
+font,
+img,
+small,
+strike,
+sub,
+sup,
+li,
+ol,
+ul,
+fieldset,
+form,
+label,
+legend,
+button,
+table,
+caption,
+tr,
+th,
+td {
+	border: none;
+	font-size: inherit;
+	line-height: inherit;
+	margin: 0;
+	padding: 0;
+	text-align: inherit;
+}
+
+blockquote::before,
+blockquote::after {
+	content: "";
+}
+
+/* header css here */
+header {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.navbar {
+    padding: 15px 0 !important;
+}
+
+.navbar-nav {
+    justify-content: center;
+    gap: 30px;
+}
+
+.custom-logo-link {
+    width: 40px;
+    height: 40px;
+    margin-right: 40px;
+}
+
+.custom-logo-link img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-item a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* blog css here */
+.blog-wrap {
+    padding: 80px 0;
+}
+
+.mehnaz-page-wrap {
+    padding: 80px 0;
+}
+
+.mehnaz-blog-item {
+    margin-bottom: 30px;
+}
+
+.page-title {
+    padding-bottom: 40px;
+}
+
+.mehnaz-blog-item a {
+    text-decoration: none;
+    color: #000;
+}
+
+.meta {
+    display: flex;
+    gap: 15px;
+}
+
+.mehnaz-blog-item a.button {
+    color: #FF8A8A;
+}
+
+.mehnaz-blog-item a.button:hover {
+    color: #000;
+}
+
+/* archive css here */
+.archive-wrap {
+    padding: 60px 0 0 0;
+}
+
+/* category css here */
+.post-categories {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.post-categories li {
+    list-style: none;
+}
+
+/* home css here */
+.mehnaz-home {
+    background: linear-gradient(#A71D31, #3F0D12);
+    margin: 20px 0;
+    padding: 200px 0;
+}
+
+/* footer css here */
+.footer {
+    padding: 30px 0;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;}
+
+.footer p {
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+/* BLOCK: IMAGE */
+
+.wp-block-image .alignleft {
+
+    /*rtl:ignore*/
+    margin-right: 0;
+}
+
+.wp-block-image .alignright {
+
+    /*rtl:ignore*/
+    margin-left: 0;
+}
+
+.wp-block-image .aligncenter figcaption {
+    text-align: center;
+}
+
+.bypostauthor .comment-footer-meta .by-post-author {
+	display: block;
+}
+
+.sticky .post-sticky {
+	color: inherit;
+}
+
+.entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6,
+.entry-content cite,
+.entry-content figcaption,
+.entry-content table,
+.entry-content address,
+.entry-content .wp-caption-text,
+.entry-content .wp-block-file {
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+figcaption,
+.wp-caption-text {
+	color: #6d6d6d;
+	display: block;
+	font-size: 1.5rem;
+	font-weight: 500;
+	line-height: 1.2;
+	margin-top: 1.5rem;
+}
+
+figcaption a,
+.wp-caption-text a {
+	color: inherit;
+}
+
+@supports ( font-variation-settings: normal ) {
+
+	.entry-content h1,
+	.entry-content h2,
+	.entry-content h3,
+	.entry-content h4,
+	.entry-content h5,
+	.entry-content h6,
+	.entry-content cite,
+	.entry-content figcaption,
+	.entry-content table,
+	.entry-content address,
+	.entry-content .wp-caption-text,
+	.entry-content .wp-block-file {
+		font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+	}
+}
+
+.alignfull > figcaption,
+.alignfull > .wp-caption-text {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 58rem;
+	width: calc(100% - 4rem);
+}
+
+.widget-content cite,
+.widget-content figcaption,
+.widget-content .wp-caption-text {
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+@supports ( font-variation-settings: normal ) {
+
+	.widget-content cite,
+	.widget-content figcaption,
+	.widget-content .wp-caption-text {
+		font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+	}
+}
+
+@media ( min-width: 700px ) {
+	/* MEDIA */
+	figcaption,
+	.wp-caption-text {
+		margin-top: 1.8rem;
+	}
+}
+
+.gallery-caption {
+	display: block;
+	margin-top: 0.8em;
+}
+
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important;
+	word-break: normal;
+}
